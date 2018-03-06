@@ -6,8 +6,8 @@
     <title>Hello World!</title>
 </head>
 <body>
-<div class="container">
-    <table class="table">
+<div>
+    <table>
         <caption>${sysUser}</caption>
         <thead>
         <tr>
@@ -27,7 +27,7 @@
             <td>thl</td>
             <td>@lynn</td>
         </tr>
-        <#list userList as user>
+        <#list userList as user >
         <tr>
             <td>${user.id}</td>
             <td>${user.name}</td>

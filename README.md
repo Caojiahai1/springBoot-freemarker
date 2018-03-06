@@ -1,1 +1,2 @@
 # springBoot-freemarker
+springBoot项目使用freemarker模板入门案例
